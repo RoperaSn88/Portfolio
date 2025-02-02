@@ -1,0 +1,143 @@
+#title{
+    color:red;
+}
+.description{
+    background-color: lightgray;
+}
+
+#title_id{
+    color:blue;
+}
+.title_class{
+    color:green;
+}
+h1{
+    color:rgb(63, 73, 255);
+}
+
+.target1{
+    background-color: red;
+    color:rgb(255, 182, 182);
+    padding: 16px;
+    border:1px solid black;
+}
+
+.target2{
+    background-color: red;
+    color:rgb(255, 182, 182);
+    margin: 16px;
+    border:2px dotted black;
+}
+.target2::before{
+    content: "Xx_";
+    color:coral;
+    background-color: aquamarine;
+}
+.target2::after{
+    content: "_xX";
+    color:coral;
+    background-color: aquamarine;
+}
+
+.h1border{
+    font-size:3rem;
+    text-align:center;
+    padding: 1rem;
+    margin:1rem;
+    color:white;
+    background: linear-gradient(to bottom right,blue,pink);
+    border-radius: 1.5rem;
+}
+
+header{
+    position: fixed;
+    width:100%;
+    height:60px;
+    background: #000000;
+    color:lightgray;
+    padding: 20px 60px; 
+    box-sizing: border-box;
+    top: 0; 
+    left: 0; 
+    display: flex; 
+    align-items: center; 
+  
+    /* ロゴとメニューを横並びにする */
+    display: flex; 
+    justify-content:flex-end;
+}
+
+header .nav .menu {
+    display: flex; 
+}
+
+header .nav .menu li {
+    list-style: none; 
+    margin-left: 40px;
+}
+
+header .nav .menu li a{
+   color:whitesmoke;
+   font-weight:bold;
+   text-decoration: none;
+}
+
+.HeaderItem{
+    margin:0 0px;
+    color:lightgray;
+    float:right;
+    padding:0px 10px;
+    font-weight: bold;
+}
+
+.kusodeka{
+    font-size: 3rem;
+}
+
+
+footer{
+    position: fixed;
+    width:100%;
+    height:60px;
+    background: #000000;
+    color:white;
+    padding: 20px 20px; 
+    box-sizing: border-box;
+    top: 95%; 
+    left: 0%; 
+    display: flex; 
+    align-items: right; 
+  
+    
+    display: flex; 
+    justify-content:flex-end;
+}
+
+.kuuhaku{
+    height: 40px;
+    width:100%;
+    background-color: #000000;
+}
+.kuuhakuunder{
+    height: 20px;
+    width:100%;
+    background-color: #000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color:lightgray;
+}
+a:visited{
+    color:lightgray;
+}
+a:hover{
+    color:lightgray;
+}
+
+body{
+    background:repeating-linear-gradient(#042652,#19192e);
+}

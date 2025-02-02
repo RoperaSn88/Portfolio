@@ -1,0 +1,218 @@
+#title{
+    color:red;
+}
+.description{
+    background-color: lightgray;
+}
+
+#title_id{
+    color:blue;
+}
+.title_class{
+    color:green;
+}
+h1{
+    color:red;
+}
+
+.target1{
+    background-color: red;
+    color:rgb(255, 182, 182);
+    padding: 16px;
+    border:1px solid black;
+}
+
+.target2{
+    background-color: red;
+    color:rgb(255, 182, 182);
+    margin: 16px;
+    border:2px dotted black;
+}
+.target2::before{
+    content: "Xx_";
+    color:coral;
+    background-color: aquamarine;
+}
+.target2::after{
+    content: "_xX";
+    color:coral;
+    background-color: aquamarine;
+}
+
+.h1border{
+    font-size:3rem;
+    text-align:center;
+    padding: 1rem;
+    margin:1rem;
+    color:white;
+    background: linear-gradient(to bottom right,blue,pink);
+    border-radius: 1.5rem;
+}
+
+header{
+    position: fixed;
+    width:100%;
+    height:60px;
+    background: #000000;
+    color:lightgray;
+    padding: 20px 60px; 
+    box-sizing: border-box;
+    top: 0; 
+    left: 0; 
+    display: flex; 
+    align-items: center; 
+  
+    /* ロゴとメニューを横並びにする */
+    display: flex; 
+    justify-content:flex-end;
+}
+
+header .nav .menu {
+    display: flex; 
+}
+
+header .nav .menu li {
+    list-style: none; 
+    margin-left: 40px;
+}
+
+header .nav .menu li a{
+   color: #B78D4A;
+   font-weight:bold;
+   text-decoration: none;
+}
+
+.HeaderItem{
+    color:lightgray;
+    margin:0 0px;
+    float:right;
+    padding:0px 10px;
+    font-weight: bold;
+}
+
+.kusodeka{
+    font-size: 3rem;
+}
+
+
+footer{
+    width:100%;
+    height:60px;
+    background: #000000;
+    color:white;
+    padding: 20px 20px; 
+    box-sizing: border-box;
+    top: 100%; 
+    left: 0; 
+    display: flex; 
+    align-items: right; 
+  
+    
+    display: flex; 
+    justify-content:flex-end;
+}
+
+.kuuhaku{
+    height: 40px;
+    width:100%;
+    background-color: #000000;
+}
+
+footer{
+    width:100%;
+    height:60px;
+    background: #000000;
+    color:white;
+    padding: 20px 20px; 
+    box-sizing: border-box;
+    top: calc(95%); 
+    left: 0%; 
+    display: flex; 
+    align-items: right; 
+  
+    
+    display: flex; 
+    justify-content:flex-end;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;/*折り返し*/
+    flex-direction: row;
+    justify-content: flex-start;/*横方向の配置*/
+    gap: 1rem; /*間隔*/
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 25rem;/*これは文字分の大きさ*/
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #4a4a4a;
+    color: white;
+}
+  
+.card-image {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+  
+.card-description {
+    padding: 1rem;
+}
+
+
+.originalcontainer {
+    display: flex;
+    flex-wrap: wrap;/*折り返し*/
+    flex-direction: row;
+    justify-content: flex-start;/*横方向の配置*/
+    gap: 1rem; /*間隔*/
+}
+
+.originalcard{
+    background-color: white;
+    border-color: black;
+    border:2px solid #000000;
+    border-radius: 0.5rem;
+    box-shadow: 0 3% 5% rgba(0, 0, 0, 0.2);
+    overflow:hidden;
+    width:25rem;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    
+}
+
+.originalcardtitle{
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #003e91;
+    color: white;
+}
+
+.originalcardimage {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.originalcarddescription {
+    padding: 1rem;
+    color:black;
+    text-decoration: none;
+}
+
+  
