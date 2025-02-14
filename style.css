@@ -99,7 +99,7 @@ footer{
 }
 main{
     /*空白*/
-    margin-top: 70%;
+    margin-top: calc(400px + 15%);
 
 }
 .aaaaa{
@@ -167,10 +167,11 @@ body{
     width: 100%;
     height:100%;
     overflow-x: hidden;
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1)),url("imgs/background.png");
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("imgs/background_large_true.gif");
     background-repeat: no-repeat,no-repeat,no-repeat;
-    background-size: 100% 50%,100% 50%,100% 70%;
-    background-position:top,100% 99%,top right;
+    background-size: 100% 50%,100% 50%,cover;
+    background-position:top center,bottom center,right top;
+    background-attachment: scroll,scroll,fixed;
     
 }
 
