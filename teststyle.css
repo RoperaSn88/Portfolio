@@ -16,3 +16,10 @@ html,body{
     position:absolute;
     bottom:0;
 }
+
+button{
+    padding: 5px 20px;
+    background-color: #337AB7;
+    border-style: none;
+    color:white
+}
